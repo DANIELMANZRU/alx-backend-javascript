@@ -1,4 +1,11 @@
+/* eslint-disable no-underscore-dangle */
 export default class Airport {
+  /**
+   * @param {string} name - name of airport
+   * @param {string} code of airport
+   *
+   * Implement getters and setters
+   */
   constructor(name, code) {
     this.name = name;
     this.code = code;
